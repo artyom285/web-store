@@ -1,0 +1,43 @@
+.Small {
+    color: white;
+    padding: 0px 125px 100px 125px;
+}
+
+.block-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    margin: 0px 10px 20px 10px;
+}
+
+.head {
+    font-size: 19px;
+}
+
+.block-heading a {
+    color: white;
+    background-color: blue;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.block-heading a:hover {
+    background-color: mediumblue;
+}
+
+.block-heading a i {
+    display: flex;
+    font-size: 22.5px;
+}
+
+#sm {
+    max-width: 240px;
+}
+
+.swiper-img.small {
+    max-width: 240px;
+}
+

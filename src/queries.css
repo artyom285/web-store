@@ -1,0 +1,181 @@
+@media(max-width: 1300px) {
+    .links {
+        display: none;
+    }
+
+    .Banners {
+        padding: 140px 90px 100px 90px;
+    }
+
+    .Navbar {
+        padding: 0px 100px;
+    }
+    
+    .menu {
+        display: flex;
+    }
+
+    .Small {
+        padding: 0px 90px 100px 90px;
+    }
+
+    .Page, .GamePage {
+        padding: 140px 100px 100px 100px;
+    }
+
+    .page-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 1200px) {
+    .game-flex {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        max-width: 700px;
+        gap: 60px;
+    }
+
+    .game-banner.info {
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+    .game-info {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .game-data {
+        margin-top: 50px;
+    }
+
+    .game-banner {
+        display: none;
+    }
+
+    .game-desc {
+        margin: 0px 0px 60px 0px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .free-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 800px) {
+    .Banners {
+        padding: 140px 70px 100px 70px;
+    }
+
+    .Navbar {
+        padding: 0px 80px;
+    }
+
+    .Small {
+        padding: 0px 70px 100px 70px;
+    }
+
+    .Page, .GamePage {
+        padding: 140px 80px 100px 80px;
+    }
+
+    .page-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .game-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .game-img:nth-child(3) {
+        grid-column: initial;
+    }
+}
+
+@media(max-width: 550px) {
+    .Banners {
+        padding: 140px 40px 100px 40px;
+    }
+
+    .Navbar {
+        padding: 0px 50px;
+        height: 100px;
+    }
+
+    .Small {
+        padding: 0px 40px 100px 40px;
+    }
+
+    .Page, .GamePage {
+        padding: 140px 50px 100px 50px;
+    }
+
+    .free-text {
+        padding: 25px;
+    }
+
+    .sidenav {
+        width: 325px;
+    }
+
+    
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+    }
+}
+
+@media(max-width: 550px) {
+    .Banners {
+        padding: 140px 30px 100px 30px;
+    }
+
+    .Navbar {
+        padding: 0px 40px;
+        height: 100px;
+    }
+
+    .Small {
+        padding: 0px 30px 100px 30px;
+    }
+
+    .Page, .GamePage {
+        padding: 140px 40px 100px 40px;
+    }
+
+    .game-title {
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .specs-block {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 450px) {
+    #sm {
+        max-width: 220px;
+    }
+    
+    .swiper-img.small {
+        max-width: 220px;
+    }
+
+    .sidenav {
+        width: 100%;
+    }
+}
+
+@media(max-width: 420px) {
+    .specs-block {
+        padding: 40px;
+    }
+}
+

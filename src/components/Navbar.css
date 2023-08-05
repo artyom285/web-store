@@ -1,0 +1,77 @@
+.Navbar {
+    color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    padding: 0px 135px;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.Navbar.active {
+    background-color: rgb(15, 15, 15);
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.4);
+    height: 85px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.links {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 40px;
+}
+
+.links li a {
+    color: #9e9e9e;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.links li a:hover {
+    color: white;
+}
+
+.nav-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.acc {
+    display: flex;
+    overflow: hidden;
+    border-radius: 50%;
+    max-width: 35px;
+}
+
+.acc img {
+    width: 100%;
+}
+
+.menu {
+    color: white;
+    display: none;
+    cursor: pointer;
+    font-size: 22.5px;
+}
+

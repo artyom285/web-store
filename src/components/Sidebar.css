@@ -1,0 +1,63 @@
+.before {
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    pointer-events: none;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    z-index: 3;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.before.active {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.sidenav {
+    background-color: #212121;
+    position: fixed;
+    pointer-events: none;
+    overflow: auto;
+    opacity: 0;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 400px;
+    transition: 0.3s;
+    z-index: 4;
+    transform: translateX(-50px);
+}
+
+.sidenav ul {
+    margin: 25px 0px 50px 0px;
+}
+
+.sidenav ul li a {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 14px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.sidenav ul li a:hover {
+    background: rgb(66, 66, 66, 0.5);
+}
+
+.sidenav ul li a i {
+    display: flex;
+    font-size: 24px;
+}
+
+.sidenav.active {
+    pointer-events: all;
+    opacity: 1;
+    transform: translateX(0px);
+}
+
