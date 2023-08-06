@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Routes, Route } from "react-router-dom"
 import Navbar from './components/Navbar';
 import Home from "./components/pages/Home";
+import GamePage from "./components/GamePage";
 import useFetch from './components/useFetch';
 import Sidebar from "./components/Sidebar";
 
@@ -12,7 +13,6 @@ const LazyFreePage = React.lazy(() => import("./components/pages/FreePage"));
 const LazyNew = React.lazy(() => import("./components/pages/New"));
 const LazyTrend = React.lazy(() => import("./components/pages/Trend"));
 const LazyPopularPage = React.lazy(() => import("./components/pages/PopularPage"));
-const LazyGamePage = React.lazy(() => import("./components/GamePage"));
 
 function App() {
   const [sidebar, setSidebar] = useState(false);
@@ -32,7 +32,7 @@ function App() {
         <Route path='/new' element={<React.Suspense fallback="Loading..."><LazyNew latest={game} /></React.Suspense>}></Route>
         <Route path='/trending' element={<React.Suspense fallback="Loading..."><LazyTrend fancy={game} /></React.Suspense>}></Route>
         <Route path='/popular' element={<React.Suspense fallback="Loading..."><LazyPopularPage hype={game} /></React.Suspense>}></Route>
-        <Route path='/game-page/:id' element={<React.Suspense fallback="Loading..."><LazyGamePage /></React.Suspense>}></Route>
+        <Route path='/game-page/:id' element={<React.Suspense fallback="Loading..."><GamePage /></React.Suspense>}></Route>
       </Routes>
     </div>
   )
