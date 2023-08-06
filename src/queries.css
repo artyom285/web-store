@@ -19,12 +19,8 @@
         padding: 0px 90px 100px 90px;
     }
 
-    .Page, .GamePage {
+    .GamePage {
         padding: 140px 100px 100px 100px;
-    }
-
-    .page-grid {
-        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -121,32 +117,12 @@
         width: 325px;
     }
 
-    
     .img1 {
         display: none;
     }
 
     .img2 {
         display: block;
-    }
-}
-
-@media(max-width: 550px) {
-    .Banners {
-        padding: 140px 30px 100px 30px;
-    }
-
-    .Navbar {
-        padding: 0px 40px;
-        height: 100px;
-    }
-
-    .Small {
-        padding: 0px 30px 100px 30px;
-    }
-
-    .Page, .GamePage {
-        padding: 140px 40px 100px 40px;
     }
 
     .game-title {

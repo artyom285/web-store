@@ -46,3 +46,29 @@
     transition: 0.3s;
 }
 
+@media(max-width: 1300px) {
+    .Page {
+        padding: 140px 100px 100px 100px;
+    }
+
+    .page-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 800px) {
+    .Page {
+        padding: 140px 80px 100px 80px;
+    }
+
+    .page-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 550px) {
+    .Page {
+        padding: 140px 50px 100px 50px;
+    }
+}
+
