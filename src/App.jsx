@@ -32,7 +32,7 @@ function App() {
         <Route path='/new' element={<React.Suspense fallback="Loading..."><LazyNew latest={game} /></React.Suspense>}></Route>
         <Route path='/trending' element={<React.Suspense fallback="Loading..."><LazyTrend fancy={game} /></React.Suspense>}></Route>
         <Route path='/popular' element={<React.Suspense fallback="Loading..."><LazyPopularPage hype={game} /></React.Suspense>}></Route>
-        <Route path='/game-page/:id' element={<React.Suspense fallback="Loading..."><GamePage /></React.Suspense>}></Route>
+        <Route path='/game-page/:id' element={<GamePage />}></Route>
       </Routes>
     </div>
   )
