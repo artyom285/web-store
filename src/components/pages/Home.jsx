@@ -1,24 +1,23 @@
 import React from 'react';
+import Banners from '../home/Banners';
+import Discounts from '../home/Discounts';
+import Free from '../home/Free';
+import Fresh from '../home/Fresh';
+import Trending from '../home/Trending';
+import Popular from '../home/Popular';
 import useFetch from '../useFetch';
 
-const LazyBanner = React.lazy(() => import("../home/Banners"));
-const LazyDiscounts = React.lazy(() => import("../home/Discounts"));
-const LazyFree = React.lazy(() => import("../home/Free"));
-const LazyFresh = React.lazy(() => import("../home/Fresh"));
-const LazyTrending = React.lazy(() => import("../home/Trending"));
-const LazyPopular = React.lazy(() => import("../home/Popular"));
-
 function Home() {
-  const { game } = useFetch("https://games-api-m8ak.onrender.com/games");
+  const { game, loading } = useFetch("https://games-api-m8ak.onrender.com/games");
 
   return (
     <div className='Home'>
-        {game && <React.Suspense fallback={<div>Loading...</div>}><LazyBanner banners={game} /></React.Suspense>}
-        {game && <React.Suspense fallback={<div>Loading...</div>}><LazyDiscounts discounts={game} /></React.Suspense>}
-        {game && <React.Suspense fallback={<div>Loading...</div>}><LazyFree free={game} /></React.Suspense>}
-        {game && <React.Suspense fallback={<div>Loading...</div>}><LazyFresh fresh={game} /></React.Suspense>}
-        {game && <React.Suspense fallback={<div>Loading...</div>}><LazyTrending trend={game} /></React.Suspense>}
-        {game && <React.Suspense fallback={<div>Loading...</div>}><LazyPopular popular={game} /></React.Suspense>}
+        <Banners banners={game} pending={loading} />
+        <Discounts discounts={game} pending2={loading} />
+        <Free free={game} pending3={loading} />
+        <Fresh fresh={game} pending4={loading} />
+        <Trending trend={game} pending5={loading} />
+        <Popular popular={game} pending6={loading} />
     </div>
   )
 }
