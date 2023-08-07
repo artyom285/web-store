@@ -96,3 +96,21 @@
     display: none;
 }
 
+@media(max-width: 1300px) {
+    .Banners {
+        padding: 140px 90px 100px 90px;
+    }
+}
+
+@media(max-width: 800px) {
+    .Banners {
+        padding: 140px 70px 100px 70px;
+    }
+}
+
+@media(max-width: 550px) {
+    .Banners {
+        padding: 140px 40px 100px 40px;
+    }
+}
+

@@ -41,3 +41,21 @@
     max-width: 240px;
 }
 
+@media(max-width: 1300px) {
+    .Small {
+        padding: 0px 90px 100px 90px;
+    }
+}
+
+@media(max-width: 800px) {
+    .Small {
+        padding: 0px 70px 100px 70px;
+    }
+}
+
+@media(max-width: 550px) {
+    .Small {
+        padding: 0px 40px 100px 40px;
+    }
+}
+
