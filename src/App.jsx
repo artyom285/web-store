@@ -1,4 +1,5 @@
 import './App.css';
+import "./components/pages/Page.css";
 import React, { useState } from 'react';
 import { Routes, Route } from "react-router-dom"
 import Navbar from './components/Navbar';
@@ -26,12 +27,12 @@ function App() {
       <Navbar click={sideFunc} />
       <Routes>
         <Route path='/' element={<Home />}></Route>
-        <Route path='/foryou' element={<React.Suspense fallback="Loading..."><LazyForYou foryou={game} /></React.Suspense>}></Route>
-        <Route path='/discounts' element={<React.Suspense fallback="Loading..."><LazyDiscountsPage sales={game} /></React.Suspense>}></Route>
-        <Route path='/free' element={<React.Suspense fallback="Loading..."><LazyFreePage noprice={game} /></React.Suspense>}></Route>
-        <Route path='/new' element={<React.Suspense fallback="Loading..."><LazyNew latest={game} /></React.Suspense>}></Route>
-        <Route path='/trending' element={<React.Suspense fallback="Loading..."><LazyTrend fancy={game} /></React.Suspense>}></Route>
-        <Route path='/popular' element={<React.Suspense fallback="Loading..."><LazyPopularPage hype={game} /></React.Suspense>}></Route>
+        <Route path='/foryou' element={<React.Suspense fallback={<div className='Page' style={{color: "white"}}>Loading...</div>}><LazyForYou foryou={game} /></React.Suspense>}></Route>
+        <Route path='/discounts' element={<React.Suspense fallback={<div className='Page' style={{color: "white"}}>Loading...</div>}><LazyDiscountsPage sales={game} /></React.Suspense>}></Route>
+        <Route path='/free' element={<React.Suspense fallback={<div className='Page' style={{color: "white"}}>Loading...</div>}><LazyFreePage noprice={game} /></React.Suspense>}></Route>
+        <Route path='/new' element={<React.Suspense fallback={<div className='Page' style={{color: "white"}}>Loading...</div>}><LazyNew latest={game} /></React.Suspense>}></Route>
+        <Route path='/trending' element={<React.Suspense fallback={<div className='Page' style={{color: "white"}}>Loading...</div>}><LazyTrend fancy={game} /></React.Suspense>}></Route>
+        <Route path='/popular' element={<React.Suspense fallback={<div className='Page' style={{color: "white"}}>Loading...</div>}><LazyPopularPage hype={game} /></React.Suspense>}></Route>
         <Route path='/game-page/:id' element={<GamePage />}></Route>
       </Routes>
     </div>
