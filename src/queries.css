@@ -3,20 +3,12 @@
         display: none;
     }
 
-    .Banners {
-        padding: 140px 90px 100px 90px;
-    }
-
     .Navbar {
         padding: 0px 100px;
     }
     
     .menu {
         display: flex;
-    }
-
-    .Small {
-        padding: 0px 90px 100px 90px;
     }
 
     .GamePage {
@@ -62,16 +54,8 @@
 }
 
 @media(max-width: 800px) {
-    .Banners {
-        padding: 140px 70px 100px 70px;
-    }
-
     .Navbar {
         padding: 0px 80px;
-    }
-
-    .Small {
-        padding: 0px 70px 100px 70px;
     }
 
     .Page, .GamePage {
@@ -92,17 +76,9 @@
 }
 
 @media(max-width: 550px) {
-    .Banners {
-        padding: 140px 40px 100px 40px;
-    }
-
     .Navbar {
         padding: 0px 50px;
         height: 100px;
-    }
-
-    .Small {
-        padding: 0px 40px 100px 40px;
     }
 
     .Page, .GamePage {
