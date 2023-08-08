@@ -1,4 +1,4 @@
-import SmallLoad from "./loading/SmallLoad";
+import Loading from "./Loading";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -23,7 +23,7 @@ function Trending({ trend, pending5 }) {
   return (
     <div className='Small'>
         {pending5 ? (
-            <div><SmallLoad /></div>
+            <div><Loading></Loading></div>
         ) : (
             <div>
                 <div className="block-heading">

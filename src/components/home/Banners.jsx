@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BannerLoad from "./loading/BannerLoad";
+import Loading from "./Loading";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -22,7 +22,7 @@ function Banners({ banners, pending }) {
   return (
     <div className='Banners'>
         {pending ? (
-            <div><BannerLoad /></div>
+            <div><Loading></Loading></div>
         ) : (
             <div>
                 <Swiper

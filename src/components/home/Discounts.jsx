@@ -1,5 +1,5 @@
 import React from 'react';
-import SmallLoad from "./loading/SmallLoad";
+import Loading from "./Loading";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -24,7 +24,7 @@ function Discounts({ discounts, pending2 }) {
   return (
     <div className='Small'>
         {pending2 ? (
-            <div><SmallLoad /></div>
+            <div><Loading></Loading></div>
         ) : (
             <div>
                 <div className="block-heading">

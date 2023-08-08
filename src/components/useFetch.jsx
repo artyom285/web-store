@@ -6,15 +6,13 @@ function useFetch(url) {
 
     //Fetch all objects with type banner
     useEffect(() => {
-        setTimeout(() => {
-            fetch(url)
-            .then(res => res.json())
-            .then(data => {
-                setGame(data);
-                setLoading(false);
-            })
-            .catch(error => console.log(error));      
-        }, 3000);
+        fetch(url)
+        .then(res => res.json())
+        .then(data => {
+            setGame(data);
+            setLoading(false);
+        })
+        .catch(error => console.log(error));    
     }, [url]);
 
     return { game, loading }

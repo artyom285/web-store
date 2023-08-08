@@ -1,5 +1,5 @@
 import React from 'react';
-import FreeLoad from "./loading/FreeLoad";
+import Loading from "./Loading";
 import "./Free.css";
 
 import { BiPlusCircle } from "react-icons/bi";
@@ -13,7 +13,7 @@ function Free({ free, pending3 }) {
   return (
     <div className='Small'>
         {pending3 ? (
-            <div><FreeLoad /></div>
+            <div><Loading></Loading></div>
         ) : (
             <div>
                 <div className="block-heading">
