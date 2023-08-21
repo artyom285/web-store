@@ -32,7 +32,7 @@ function Navbar({ click }) {
         </ul>
         <div className="nav-right">
           <div className="acc">
-            <img src="https://yt3.googleusercontent.com/in7ji16oeon_ypiAMeH-ZdTWSaIC54yZqMsFg0X3uhTBk4MDCuIkRf6TIoQQCqjl20DSdakhSQ=s900-c-k-c0x00ffffff-no-rj" alt="avatar" />
+            <img src="/account.jpg" alt="avatar" />
           </div>
           <i className='menu' onClick={click}><MdMenu /></i>
         </div>
