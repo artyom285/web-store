@@ -18,3 +18,17 @@ Online gaming shop built by using ReactJS. The application includes pages like H
 * Flexbox
 * CSS Grid
 * Reusable components
+
+## Setup
+
+* Download or clone the repository
+* Run ```npm run dev```
+
+## Links
+
+* [Final result](https://games285.netlify.app/)
+* [Icons](https://react-icons.github.io/react-icons/)
+* [API](https://games-api-m8ak.onrender.com/games)
+* [React Router v6.15.0](https://reactrouter.com/en/main)
+* [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
+* [Media files resource](https://store.epicgames.com/en-US/)
