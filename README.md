@@ -29,7 +29,7 @@ Online gaming shop built by using ReactJS. The application includes pages like H
 * [Final result](https://games285.netlify.app/)
 * [Icons](https://react-icons.github.io/react-icons/)
 * [API](https://games-api-m8ak.onrender.com/games)
-* [API's GitHub repo](https://github.com/artyom285/web-store-api)
+* [API's GitHub repository](https://github.com/artyom285/web-store-api)
 * [React Router v6.15.0](https://reactrouter.com/en/main)
 * [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
 * [Media files resource](https://store.epicgames.com/en-US/)
