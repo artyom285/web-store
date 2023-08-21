@@ -2,7 +2,7 @@
 
 # Games
 
-Online gaming shop built by using ReactJS. The application includes pages like Home, For You, Discounts, Fresh, Trending and Popular. Every page's content was fetched as a data from API which was built from scratch as an additional element for this project. Responsive functionality and sidebar navigation are provided on the website as well, depending on screen size. Additional technologies and techniques involved in the development process are:
+Online gaming shop built by using ReactJS. The application includes pages like Home, For You, Discounts, Fresh, Trending and Popular. Every page's content was fetched as data from API which was built from scratch as an additional element for this project. Responsive functionality and sidebar navigation are provided on the website as well, depending on screen size. Additional technologies and techniques involved in the development process are:
 
 * React Router
 * React Loading Skeleton
