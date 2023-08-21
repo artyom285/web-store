@@ -14,6 +14,7 @@ Online gaming shop built by using ReactJS. The application includes pages like H
 * useState hook
 * useEffect hook
 * Custom hooks (useFect hook)
+* Swiper
 * Props
 * Flexbox
 * CSS Grid
@@ -31,5 +32,6 @@ Online gaming shop built by using ReactJS. The application includes pages like H
 * [API](https://games-api-m8ak.onrender.com/games)
 * [API's GitHub repository](https://github.com/artyom285/web-store-api)
 * [React Router v6.15.0](https://reactrouter.com/en/main)
+* [Swiper](https://swiperjs.com/)
 * [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
 * [Media files resource](https://store.epicgames.com/en-US/)
