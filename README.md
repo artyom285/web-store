@@ -13,7 +13,7 @@ Online gaming shop built by using ReactJS. The application includes pages like H
 * API
 * useState hook
 * useEffect hook
-* Custom hooks (useFect hook)
+* Custom hook (useFetch hook)
 * Swiper
 * Props
 * Flexbox
