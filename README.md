@@ -6,7 +6,7 @@ Online gaming shop built by using ReactJS. The application includes pages like H
 
 * React Router
 * React Loading Skeleton
-* Code-Splitting
+* React.lazy()
 * React Icons
 * JSON Server
 * NPM
